@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	An empty repository is created. You can commit the changes and you will be able
+	to see all the files that can potentially be tracked by Git in the future.
+
