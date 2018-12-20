@@ -3,3 +3,10 @@ What happens when you initialize a repository? Why do you need to do it?
 	An empty repository is created. You can commit the changes and you will be able
 	to see all the files that can potentially be tracked by Git in the future.
 
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	The staging area is kind of a limbo between the working directory and the repository.
+	It's useful because it allows you to prepare files, rearrange, and edit them before they
+	are finally commited and become an integral part of the repository.
