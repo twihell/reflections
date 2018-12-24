@@ -43,4 +43,14 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would need to make changes in a separate branch if I knew that I'm not the only
+    person who is working on the project. When a few or more people are working in one
+    repository, they need to be aware of all the changes that might occur to it during the
+    development process. So, to make everything up-to-date, you should introduce every new 
+    change in a separate branch. Once the change was approved of by all the contributors, you 
+    can then merge it with the master branch. If it wasn't approved, you can either rework your
+    original idea or simply give this idea up in favor of something else. 
+    
+    Of course, having to always make other people aware of every change might sound frustrating and
+    actually appear to be time-consuming, but it's completely worhth it, especially if your main priority
+    is an efficient and well-performing code. 
