@@ -10,3 +10,53 @@ What value do you think it offers?
 	The staging area is kind of a limbo between the working directory and the repository.
 	It's useful because it allows you to prepare files, rearrange, and edit them before they
 	are finally commited and become an integral part of the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I can compare the staging area file(s) to the latest commit in my repository. If I see that
+	the changes I am to commit are right, and if these changes really make one logical action,
+	I continue to the commit command.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+	Branches are surely needed when you want to implement a new experimental idea but don't
+	want to risk your current project. If the idea fails or causes crushes, it will not affect
+	the original commit history. You might also want to use branches when you need to update your
+	documents or add and/or demonstrate a new feature to your friends or collegues.
+
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams show when a specific branch was created and explain when exactly certain
+	things were introduced in the project. Diagrams also help you to see how every commit 
+	is related to its parent and whether it's related to anything at all.
+
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+
+	As a result of a merge, a new 'merge commit' is created. It contains in itself
+	both commit parents, i.e. all the changes and commits that used to be part of those
+	separate branches. A merge commit will become the latest commit in the branch that is 
+	currently being checked out.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros of Git's automatic merging:
+	- saves time
+	- creates a new commit instantly
+	- easy to use
+	Cons of Git's automatic merging:
+	- cannot understand which version of the file to put into a merged commit
+	if there are different changes in one and the same code instance --> you would need
+	to apply machine learning to show it how to behave in different cases. As a result, Git
+	sees such cases as conflicts by default.
+	- because Git cannot decide which change would be better fot the final project, if it merged 
+	automatically, it would cause to numerous bugs in the future.
+
+	Pros of manual merging:
+	- you yourself decide which version of the file to save for the final project -> you will less
+	likely to make a mistake
+	Cons:
+	- takes additional time
+
