@@ -7,7 +7,11 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because GitHub is a public space, your project might be viewed and edited by
+    different people at different times. Each new change should be viewed and verified by you
+    (as it's your project), but if it's added to your local repository automatically,
+    you will lose contol over your own project, which will probably lead to bad
+    consequences in the future. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
